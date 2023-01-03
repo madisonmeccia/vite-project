@@ -1,0 +1,77 @@
+const menu = [
+  {
+    dish: "penne with vodka",
+    image: "./images/penne.jpg",
+    description: "penne pasta with vodka sauce",
+    price: 23.69,
+    meat: ["n/a"],
+    days: [3, 6, 7],
+  },
+  {
+    dish: "chicken francese",
+    image: "./images/chicken.jpeg",
+    description: "chicken with lemon and a side of pasta",
+    price: 27.92,
+    meat: ["chicken"],
+    days: [1, 2, 7],
+  },
+  {
+    dish: "pasta with sunday sauce",
+    image: "./images/pasta.jpg",
+    description: "pasta with fresh tomato sauce, chopmeat, meatballs",
+    price: 20.87,
+    meat: ["beef"],
+    days: [4, 5, 6],
+  },
+  {
+    dish: "brick oven pizza",
+    image: "./images/pizza1.jpg",
+    description: "brick oven vodka sauce pizza",
+    price: 5.65,
+    meat: ["beef"],
+    days: [5, 6, 7],
+  },
+  {
+    dish: "brick oven pizza",
+    price: 4.92,
+    description: "brick oven tomato sauce pizza",
+    image: "./images/pizza2.jpg",
+    meat: ["fish", "pepperoni"],
+    days: [2, 3, 5],
+  },
+  {
+    dish: "penne with bolognese",
+    image: "./images/pizza3.jpg",
+    description: "penne with a beef and tomato sauce",
+    price: 54.32,
+    meat: ["beef"],
+    days: [3, 4, 7],
+  },
+  {
+    dish: "linguini with clam sauce",
+    image: "./images/pizza4.jpeg",
+    description: "linguini with clams and sauce",
+    price: 75.2,
+    meat: ["fish"],
+    days: [3, 4, 6],
+  },
+
+  {
+    dish: "eggplant parmigiana",
+    image: "./images/pizza5.jpg",
+    description: "baked eggplan, sauce, cheese",
+    price: 40.0,
+    meat: ["n/a"],
+    days: [3, 4, 5],
+  },
+  {
+    dish: "tortellini with creamy sauce",
+    image: "./images/pizza6.jpg",
+    description: "tortellini, creamy sauce, basil",
+    price: 37.56,
+    meat: ["n/a"],
+    days: [2, 5, 6],
+  },
+];
+
+export { menu };

@@ -1,0 +1,132 @@
+@import url('main2.css');
+@import url('main.css');
+
+:root {
+    
+    --darker-red: rgb(144, 17, 140); 
+    --red: rgb(149, 189, 238);
+    --light-red: rgb(255, 100, 206);
+    --orange-red: rgb(101, 73, 229);
+    --beige: rgb(197, 114, 212);
+    --grey: rgb(205, 180, 219);
+    --black: black;
+
+
+    --darker-blue: rgb(155, 107, 227);
+    --dark-blue: rgb(175, 90, 149);
+    --blue: rgb(183, 54, 174);
+    --light-blue: rgb(53,217,245);
+    --white: rgb(240,240,240);
+
+  
+    --meat-hover: var(--darker-red); 
+    --meat-bg: var(--red);
+    --border-color: var(--grey);
+    --button-color1: var(--light-red);
+    --button-color2: var(--orange-red);
+    --border-colorX: var(--black);
+    --bar-bg: var(--beige);
+}
+html,
+body
+ {
+    background-color: darkslateblue;
+    height: 200%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+}
+.foodLight {
+    --meat-hover: var(--darker-red); 
+    --meat-bg: var(--orange-red);
+    --border-color: var(--whites);
+    --button-color1: var(--light-red);
+    --button-color2: var(--orange-red);
+    --border-colorX: var(--white;)
+    --bar-bg: var(--orange-red);
+}
+
+.foodDark {
+    background-color:rgb(223, 156, 216);
+    --meat-hover: var(--blue); 
+    --meat-bg: var(--dark-blue);
+    --border-color: var(--black);
+    --button-color1: var(--blue);
+    --button-color2: var(--light-blue);
+    --border-colorX: var(--black);
+    --bar-bg: var(--darker-blue);
+}
+
+
+.bar {
+    display: flex;
+    position: fixed;
+    width: 120rem;
+    height: 10rem;
+    background-color: var(--bar-bg);
+    border-bottom: solid .5rem var(--border-color);
+    border-style: double;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.tab {
+    border-right: solid .5rem var(--border-color);
+    font-size: 5rem;
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.menu {
+
+    padding: 15rem 0 10rem 0;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5rem;
+    width: 100vw;
+    vertical-align: top;
+}
+
+
+.theme {
+    border: 0;
+}
+
+.btn,
+.btn:link,
+.btn:visited{
+  padding: 1rem 3rem;
+  display:inline-block;
+  margin: 1rem auto;
+  font-size: 1rem;
+  border:none;
+  border-radius: 7rem;
+  transition: all 0.2s;
+  background: pink;
+}
+.btn:hover{
+  transform: translateY(5px);
+  box-shadow: 0 3px 0.5rem lightskyblue;
+}
+
+  .logoPic:hover{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+  
+  .tabfs{
+margin-top: 2rem;
+margin-right: 110px;
+  }
+  .showNomeat{
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 70px;
+  }

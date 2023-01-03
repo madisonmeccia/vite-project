@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link class="pic" rel="stylesheet" href= "./images/pic.png/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>italy's kitchen</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+      <div class="bar" id="body">
+        <div class="tabLogo">
+            <img src="./images/logo.png" alt="italy's kitchen" class="logoPic">
+            
+        </div>
+        <button class="btn">click me</button>
+        <div class="tabfs">
+          <button class="show showAll">complete menu</button>
+        </div>
+      
+          <button class="show showNomeat">meat free</button>
+          
+        <div class="tab meat selector">
+          <p class="select">select</p>
+          <div class="pick" tabindex="1"> 
+            <input class="selectopt" name="test" type="radio" id="opt1" value="beef">
+            <label for="opt1" class="option">beef</label>
+            <input class="selectopt" name="test" type="radio" id="opt2" value="chicken">
+            <label for="opt2" class="option" >chicken</label>
+            <input class="selectopt" name="test" type="radio" id="opt3" value="fish">
+            <label for="opt3" class="option">fish</label>
+            <input class="selectopt" name="test" type="radio" id="opt4" value="pepperoni">
+            <label for="opt4" class="option">pepperoni</label>
+            <input class="selectopt" name="test" type="radio" id="opt5" checked value="all">
+            <label for="opt5" class="option">all</label>
+          </div>
+        </div>
+      </div><div class="menu"> </div>
+    <script type="module" src="./js/main.js">
+    </script>
+</body>
+</html>
